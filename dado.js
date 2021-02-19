@@ -26,7 +26,7 @@ function tirarDado(){
   registro.innerHTML="";
   for(var i = 0;i<historial.length;i++){
       registro.innerHTML += historial[historial.length-1-i];
-    registro.innerHTML += "<br/>";
+    registro.innerHTML += "<hr/>";
     
   }   
 }
