@@ -20,7 +20,7 @@ function tirarDado(){
   texto.innerHTML="";
   
   for(var i = 0; i<dados;i++){
-    texto.innerHTML = "|" + aleatorio(0,temp) + "|";
+    texto.innerHTML += "|" + aleatorio(0,temp) + "|";
     historial.push(texto.innerText);
   }
   registro.innerHTML="";
